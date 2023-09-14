@@ -1,0 +1,174 @@
+header {
+    display: flex;
+    background-color: black;
+    height: 70px;
+}
+
+header .logo {
+    margin-left: 5%;
+}
+
+header .logo #judul-web {
+    margin-top: 0px;
+    line-height: 70px;
+    color: white;
+}
+
+header .navbar-container ul {
+    padding-top: 0px;
+    margin-top: 0px;
+    line-height: 70px;
+    display: flex;
+}
+
+header .navbar-container ul li {
+    /* background-color: white; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header .login-signup-container {
+    /* background-color: aqua; */
+    margin-left: auto;
+    margin-right: 5%;
+    /* background-color:cadetblue; */
+    
+}
+
+header .login-signup-container ul {
+    margin-top: 0px;
+    padding-top: 0px;
+    line-height: 70px;
+    /* background-color:cadetblue; */
+}
+
+header .login-signup-container ul li {
+    display: inline;
+}
+
+header .login-signup-container .signup {
+    border-radius: 25px;
+    padding: 10px;
+    background-color: white;
+}
+
+.login-signup-container .signup a {
+    color: black;
+}
+
+header .login-signup-container .login {
+    margin-left: 10px;
+}
+
+.content {
+    /* background-color: aqua; */
+    margin-left: 5%;
+    margin-right: 5%;
+    /* height: 1800px; */
+}
+
+.list-type-none {
+    list-style: none;
+}
+
+.fixed-position {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.fixed-position + .content{
+    padding-top: 70px;
+}
+
+.today-news-container {
+    margin-top: 50px;
+    /* height: fit-content; */
+}
+
+.today-news-container .today-news {
+    display: flex;
+    padding: 15px;
+    /* background-color: rgb(138, 138, 138); */
+}
+
+.today-news-container .title-content {
+    display: flex;
+    /* background-color: rgb(218, 215, 65); */
+    margin-top: 0px;
+}
+
+.today-news-container .title-content #today-news-date {
+    margin-left: auto;
+}
+
+.today-news-container .today-news .today-news-big {
+    /* background-color: rgb(166, 216, 178); */
+    margin-right: 50px;
+    width: 60%;
+}
+
+.today-news-big-content {
+    display: flex;
+}
+
+.today-news-big-content img{
+    width: 500px;
+}
+
+.today-news-big-content .today-news-big-detail {
+    /* background-color: cornflowerblue; */
+    margin-left: 30px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.today-news-small-image {
+    width: 200px;
+}
+
+.today-news-container .today-news .today-news-small {
+    /* background-color: cadetblue; */
+    margin-left: 50px;
+    width: 40%;
+}
+
+.today-news-small .today-news-small-image-container {
+    padding-top: 19px;
+}
+
+.today-news-small .today-news-small-detail {
+    padding-left: 18px;
+}
+
+.content-news-detail-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-news-detail {
+    justify-content: space-between;
+}
+
+.content-news-detail .news-image {
+    width: 300px;
+}
+
+.content-news-container {
+    margin-top: 30px;
+}
+
+.content-news-container .content-title {
+    background-color: rgb(180, 180, 180);
+    padding-left: 30px;
+}
+
+.content-news-container .content-title h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
